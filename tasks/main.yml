@@ -1,0 +1,7 @@
+---
+# tasks file for webserver
+- name: "Web Server | Install httpd"
+  include_tasks: install.yml 
+
+- name: "Web Server | Sample HTML files"
+  include_tasks: post_install.yml
